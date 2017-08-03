@@ -1,12 +1,11 @@
 language: node_js
 node_js:
-  - "iojs"
-  - "7"
-before_script:
-  - npm install -g hexo-cli
-  - npm install hexo-deployer-git --save
-  - npm i hexo-generator-json-content --save
+  - "6"
 install:
+  - npm install
+script:
   - hexo clean
   - hexo generate
+  - echo "https://hhhdddwww%40163.com:"$GIT_PWD"@github.com" >> ~/.git-credentials
+  - git config --global credential.helper store
   - hexo deploy
