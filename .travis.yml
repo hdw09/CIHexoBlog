@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "iojs"
+  - "7"
+before_script:
+  - npm install -g hexo-cli
+  - npm install hexo-deployer-git --save
+  - npm i hexo-generator-json-content --save
+install:
+  - hexo clean
+  - hexo generate
+  - hexo deploy
