@@ -8,3 +8,4 @@ echo "============ hexo deploy begin ============"
 hexo deploy
 
 echo "============ DONE ============"
+
