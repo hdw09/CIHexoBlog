@@ -18,13 +18,13 @@ iOS7引入了一个叫Today的东东，它和通知在一起出现在系统下�
 
 ## 如何创建一个wiget
 
-在工程中新建一个target，选择Today Extension，就是通常意义上的窗口插件也就是widget。 ![Snip20161012_1](widget 学习笔记/Snip20161012_1.png)
+在工程中新建一个target，选择Today Extension，就是通常意义上的窗口插件也就是widget。 ![Snip20161012_1](Snip20161012_1.png)
 
-这么模板会创建一个带有一个TodayViewController、一个info.plist和一个storyboard。如果不想使用storyboard需要修改info.plis的配置。 ![Snip20161012_6](widget 学习笔记/Snip20161012_6.png)
+这么模板会创建一个带有一个TodayViewController、一个info.plist和一个storyboard。如果不想使用storyboard需要修改info.plis的配置。 ![Snip20161012_6](Snip20161012_6.png)
 
 直接点击运行，在iOS10上的表现如下：
 
-![Snip20161012_7](widget 学习笔记/Snip20161012_7.png)
+![Snip20161012_7](Snip20161012_7.png)
 
 现在先来关心三个问题：
 
