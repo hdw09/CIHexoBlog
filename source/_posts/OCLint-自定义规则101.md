@@ -13,7 +13,7 @@ tags:
 * mac系统安装有Xcode，git，ruby（一般都会有），还有要会科学上网
 
 * 在OCLint的github上clone下代码 https://github.com/oclint/oclint 。（不要下载官方网站的代码），目录如下：
-<!-- more -->
+  <!-- more -->
   ```shell
   ├── README.md
   ├── oclint-core
