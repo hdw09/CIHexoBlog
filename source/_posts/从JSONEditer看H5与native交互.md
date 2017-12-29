@@ -13,6 +13,8 @@ tags:
 
 #### JSONEditer实现过程
 
+> 首先！  先上源码！ https://github.com/hdw09/JSONEditer
+
 第一种映入的想法就是既然JSON是有结构的文本，那边就按照其结构展开它，每个节点可以单独编辑，这样就规避了手动按压拖动的选择方式。还有结构化之后我们可以对每个节点添加插入、删除、修改类型等快捷菜单，这样在添加内容时就少了很多打字的麻烦。想到这里时，突然意识的这样的功能我见过，于是去我的start过的github项目找了一了下，有一个jsoneditor的js项目   <https://github.com/josdejong/jsoneditor>
 
 <img src="image2017-7-28 16_17_57.png" width="300px" />
