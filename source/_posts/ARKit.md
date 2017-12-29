@@ -12,6 +12,8 @@ https://developer.apple.com/videos/play/wwdc2017/602/
 
 AR (augmented reality 增强现实)，apple给我们提供了一种结合手机摄像头和陀螺仪的AR api。ARKit可以让我们在手机摄像机加入2D或3D模型使得呈现出的捕获画面中模型就好像原本就在真实世界中一样。
 
+<!-- more -->
+
 ARKit提供给我们陀螺仪运动跟踪，摄像机拍摄，高级图像场景处理等核心功能，并且让我们很方便的显示AR场景。
 
 > 要注意的是ARKit要求具有搭载A9处理器以上设备（如iPhone6s）可以在UIRequiredDeviceCapabilities中设置你的app需要ARKit，也可以用isSupported来动态判断当前设备是否支持ARKit
